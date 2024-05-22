@@ -5,7 +5,7 @@ serverPort = 11101
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverAddress = ('', serverPort)
 
-#apiAddress = "http://localhost"
+#apiAddress = "http://"
 #headersArray = {'ContentType': 'application/json'}
 
 serverSocket.bind(serverAddress)

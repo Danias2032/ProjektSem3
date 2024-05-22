@@ -4,7 +4,7 @@ from time import sleep
 import random
 from datetime import datetime, time
 
-serverName = 'Localhost'
+serverName = '255.255.255.255'
 serverPort = 11101
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 clientSocket.setsockopt(SOL_SOCKET, SO_BROADCAST, 1)
